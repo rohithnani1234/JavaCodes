@@ -67,6 +67,7 @@ public class LoanApplication {
 		System.out.println("LoanAmount:"+loanAmount);
 		System.out.println("Intrest Rate:"+intrestRate);
 		System.out.println("EMI:"+calculateEMI());
+		outstandingBalance+=calculateEMI();
 		System.out.println("Outstanding Balance is:"+outstandingBalance);
 	}
 	public static void main(String[] args) {
